@@ -1,5 +1,5 @@
 body {
-  overflow: scroll;
+  overflow: auto;
   font-family: 'Raleway', sans-serif;
 }
 
@@ -26,6 +26,7 @@ h2 {
 
 
 .App {
+  width: 100vw;
   height: fit-content;
   display: flex;
   flex-direction: column;
