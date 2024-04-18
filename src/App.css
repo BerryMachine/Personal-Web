@@ -1,5 +1,5 @@
 body {
-  overflow: hidden;
+  overflow: scroll;
   font-family: 'Raleway', sans-serif;
 }
 
@@ -7,15 +7,20 @@ h1 {
   font-size: 120px;
   font-weight: bold;
   color: #2f4f4f;
-  /* letter-spacing: 6px; */
+  /* letter-spacing: 3px; */
   line-height: 1px;
+  padding: 60px;
+  margin: 20px
 }
 
 h2 {
   font-size: 30px;
-  color: #2f4f4fa1;
-  /* letter-spacing: 2px; */
+  font-weight: 270;
+  color: #002438dc;
+  letter-spacing: 7px;
   line-height: 0px;
+  padding: 20px;
+  margin: 20px;
 }
 
 
@@ -23,21 +28,22 @@ h2 {
 .App {
   height: fit-content;
   display: flex;
+  flex-direction: column;
   justify-content: center;
 }
 
+/* --------------TITLE------------- */
 .Title {
   background-color: azure;
-  height: 100vh;
+  height: 80vh;
   display: flex;
   /* margin: auto; */
   align-items: center;
-  justify-content: center;
+  justify-content:center;
   flex-direction: column;
-  border:solid rebeccapurple;
+  /* border:solid rebeccapurple; */
   width: 100vw;
 }
-
 
 .hithere {
   animation-name: fadeInBottom;
@@ -48,18 +54,42 @@ h2 {
 
 .name {
   animation-name: fadeInBottom;
-  animation-duration: 1.5s;
+  animation-duration: 1.2s;
   animation-fill-mode: both;
   animation-delay: 1.7s;
-  background-image: url(./assets/stars.jpg);
+  background-image: url(./assets/bg1.jpg);
+  background-size: 105%;
+  background-position-y: 30%;
+  background-position-x: 40%; 
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
+
+/* --------------PORTRAIT------------- */
+.Portrait {
+  background-color: azure;
+  background-image: url(./assets/portrait_watercolored.png);
+  background-size: 100%;
+  background-position-y: 50%;
+  background-position-x: 50%;
+  height: 200vh;
+  display: flex;
+  /* margin: auto; */
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  /* border:solid rebeccapurple; */
+  width: 100vw;
+}
+
+/* .portrait_img {} */
+
+
 @keyframes fadeInBottom {
   from {
     opacity: 0;
-    transform: translateY(100%);
+    transform: translateY(69%);
   }
   to {
     opacity: 1;

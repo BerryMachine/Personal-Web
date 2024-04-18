@@ -7,6 +7,9 @@ function App() {
         <h2 class="hithere">This is</h2>
         <h1 class="name">JASON HE</h1>
       </div>
+      <div className="Portrait">
+        
+      </div>
     </div>
   );
 }
