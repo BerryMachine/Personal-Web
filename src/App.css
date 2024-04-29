@@ -1,6 +1,7 @@
 body {
-  overflow: auto;
   font-family: 'Raleway', sans-serif;
+  max-width: 100%;
+  overflow-x: hidden;
 }
 
 h1 {
@@ -31,6 +32,7 @@ h2 {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  background-color: azure;
 }
 
 /* --------------TITLE------------- */
@@ -70,18 +72,19 @@ h2 {
 /* --------------PORTRAIT------------- */
 .Portrait {
   background-color: azure;
-  background-image: url(./assets/portrait_watercolored.png);
+  background-image: url(./assets/portrait_watercolored_1.png);
+  background-repeat:no-repeat;
   background-size: 100%;
   background-position-y: 50%;
   background-position-x: 50%;
-  height: 200vh;
+  height: 70vw;
   display: flex;
   /* margin: auto; */
   align-items: center;
   justify-content: center;
   flex-direction: column;
   /* border:solid rebeccapurple; */
-  width: 100vw;
+  width: 70vw;
 }
 
 /* .portrait_img {} */
@@ -97,8 +100,8 @@ h2 {
   }
 }
 
-@media screen and (max-width: 690px) {
+@media screen and (max-width: 900px) {
   h1 {
-    font-size: 16vw;
+    font-size: 13.6vw;
   }
 }

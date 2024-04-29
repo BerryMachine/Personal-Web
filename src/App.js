@@ -8,7 +8,6 @@ function App() {
         <h1 class="name">JASON HE</h1>
       </div>
       <div className="Portrait">
-        
       </div>
     </div>
   );
