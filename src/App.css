@@ -24,6 +24,16 @@ h2 {
   margin: 20px;
 }
 
+h3 {
+  font-size: 30px;
+  font-weight: 270;
+  color: #002438dc;
+  letter-spacing: 7px;
+  line-height: 0px;
+  padding: 10px;
+  margin: 10px;
+}
+
 
 
 .App {
@@ -81,12 +91,15 @@ h2 {
   display: flex;
   /* margin: auto; */
   align-items: center;
-  justify-content: center;
+  justify-content: right;
   flex-direction: column;
   /* border:solid rebeccapurple; */
   width: 70vw;
 }
 
+.intro_title {
+
+}
 /* .portrait_img {} */
 
 
